@@ -1,3 +1,4 @@
+import { Avatar } from '../Avatar/Avatar'
 import styles from '/src/components/Sidebar/_sidebar.module.sass'
 
 import { PencilLine } from 'phosphor-react'
@@ -11,7 +12,7 @@ export default function Sidebar() {
       alt="imagem de capa do usuário" />
 
       <div className={styles.profile}>
-        <img src="https://github.com/justamandd.png" alt="" className={styles.avatar} />
+        <Avatar src="https://github.com/justamandd.png" />
 
         <strong>Vitor Justamand</strong>
         <span>Web developer</span>

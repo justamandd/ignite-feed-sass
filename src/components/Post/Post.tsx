@@ -1,3 +1,4 @@
+import { Avatar } from '../Avatar/Avatar'
 import Comment from '../Comment/Comment'
 import styles from '/src/components/Post/_post.module.sass'
 
@@ -11,7 +12,8 @@ export default function Post() {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img src="https://github.com/justamandd.png" alt="" className={styles.avatar} />
+          <Avatar src="https://github.com/justamandd.png" />
+
           <div className={styles.authorInfo}>
             <strong>Vitor Justamand</strong>
             <span>Web Developer</span>
